@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(#e0a090, white);
+    font: 14px "lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+    background-repeat: no-repeat;
+}
+
+h1,h2{
+    font-family: Georgia;
+}
+
+h1{
+    border-bottom: 3px solid #ee6c4d;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    border-top: 1px solid;
+    border-bottom: 1p-x solid;
+    background-color:#ee6c4d ;
+    padding-left: 5px;
+    margin: 0 0 0 -15px;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+label::after{
+    content: ":";
+}
+
+a{
+    text-decoration: none;
+    color: #ee6c4d ;
+
+    padding-top: 10px; 
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+    padding-bottom: 10px;
+}
+
+.line{
+    width: 200px;
+    margin: 5px;
+    height: 200px;
+    position: relative;
+    border-radius: 80px;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border-color: white;
+}
